@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Paulo Ricardo Bernardo Silva — Portfólio</title>
+  <meta name="description" content="Desenvolvedor Full Stack (Angular, Java, Python, Node.js) com foco em big data e tempo real." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <span class="logo">&lt;PRB/&gt;</span>
+    <div>
+      <a href="#sobre">Sobre</a><a href="#experiencia">Experiência</a>
+      <a href="#pesquisa">Pesquisa</a><a href="#projetos">Projetos</a><a href="#contato">Contato</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <img id="foto" class="foto" alt="Foto de Paulo Ricardo Bernardo Silva" hidden />
+    <div>
+    <p class="mono accent">$ whoami</p>
+    <h1 id="nome"></h1>
+    <h2 id="cargo"></h2>
+    <div class="cta" id="cta"></div>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <h3><span class="mono accent">01.</span> Sobre</h3>
+      <p id="resumo"></p>
+      <div class="grid2">
+        <div><h4>Formação</h4><ul id="formacao" class="timeline"></ul>
+          <h4>Idiomas</h4><ul id="idiomas" class="timeline"></ul></div>
+        <div><h4>Habilidades</h4><div id="skills"></div></div>
+      </div>
+    </section>
+
+    <section id="experiencia">
+      <h3><span class="mono accent">02.</span> Experiência</h3>
+      <div class="jobs" id="casos"></div>
+    </section>
+
+    <section id="pesquisa">
+      <h3><span class="mono accent">03.</span> Pesquisa</h3>
+      <p id="pesq-resumo"></p>
+      <p class="nota" id="pesq-orient"></p>
+      <div id="pesq-areas"></div>
+      <h4>Publicações</h4>
+      <div id="publicacoes"></div>
+    </section>
+
+    <section id="projetos">
+      <h3><span class="mono accent">04.</span> Projetos de P&amp;D</h3>
+      <p class="nota">Declarações e certificados disponíveis mediante solicitação.</p>
+      <div class="filtros" id="filtros"></div>
+      <div class="cards" id="lista-projetos"></div>
+    </section>
+
+    <section id="contato">
+      <h3><span class="mono accent">05.</span> Contato</h3>
+      <p>Aberto a projetos, consultorias e oportunidades.</p>
+      <div class="cta" id="cta2"></div>
+    </section>
+  </main>
+
+  <footer id="rodape"></footer>
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

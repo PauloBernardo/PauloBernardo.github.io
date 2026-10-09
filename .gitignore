@@ -1,0 +1,9 @@
+# Publica apenas os arquivos do site; documentos pessoais ficam só no computador
+*
+!.gitignore
+!index.html
+!style.css
+!main.js
+!data.js
+!assets/
+!assets/foto.jpg
